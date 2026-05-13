@@ -1,4 +1,6 @@
-export default function Cart({ cart }) {
+import CartItem from "./CartItem";
+
+export default function Cart({ cart, removeFromCart, addToCart }) {
   return (
     <section className="cart">
       <h2>Cart</h2>
@@ -8,7 +10,12 @@ export default function Cart({ cart }) {
         <>
           <ul>
             {cart.map((item) => (
-              <CartItem />
+              <CartItem
+                key={item.id}
+                item={item}
+                removeFromCart={removeFromCart}
+                addToCart={addToCart}
+              />
             ))}
           </ul>
         </>
