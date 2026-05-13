@@ -1,5 +1,8 @@
 import { useState } from "react";
+
 import PLANTS from "./data";
+
+import PlantList from "./plants/PlantList";
 
 /** User can add plants to a cart, increase and decrease quantity, and remove items from cart */
 export default function App() {
@@ -8,7 +11,7 @@ export default function App() {
     <>
       <h1>Proper Plants</h1>
       <main>
-        <Plants />
+        <PlantList />
         <Cart />
       </main>
     </>
