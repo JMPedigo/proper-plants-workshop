@@ -36,3 +36,15 @@ button:hover {
 .title {
   text-align: center;
 }
+
+@media (width <= 500px) {
+  body {
+    display: grid;
+    justify-content: space-between;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
