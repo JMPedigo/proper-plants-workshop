@@ -1,5 +1,5 @@
 .cart-item:not(:last-child) {
-  border-bottom: 1px solid #eee;
+  border-bottom: 5px solid #e1b3b3;
 }
 
 .cart-item {
@@ -17,4 +17,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title-cart {
+  text-align: center;
+  padding: 1ch;
 }

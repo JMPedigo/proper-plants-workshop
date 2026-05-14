@@ -44,7 +44,7 @@ export default function App() {
 
   return (
     <>
-      <h1>Proper Plants</h1>
+      <h1 className="title">Proper Plants</h1>
       <main>
         <PlantList plants={PLANTS} addToCart={addToCart} />
         <Cart

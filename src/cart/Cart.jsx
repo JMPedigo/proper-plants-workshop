@@ -5,7 +5,7 @@ import "./cart.css";
 export default function Cart({ cart, removeFromCart, addToCart }) {
   return (
     <section className="cart">
-      <h2>Cart</h2>
+      <h2 className="title-cart">Cart</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty. Please add a plant.</p>
       ) : (

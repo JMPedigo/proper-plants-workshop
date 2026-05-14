@@ -10,12 +10,15 @@ html {
 
 body {
   padding: 1rem;
+  background-color: #e1b3b3;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 30ch;
-  gap: 1rem;
+  gap: 2rem;
+  background-color: #4c7d58;
+  border-radius: 1rem;
 }
 
 ul {
@@ -28,4 +31,8 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.title {
+  text-align: center;
 }
